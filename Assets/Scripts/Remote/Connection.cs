@@ -11,6 +11,7 @@ using Unity.Services.RemoteConfig;
 using UnityEditor.MemoryProfiler;
 using FMOD.Studio;
 using UnityEngine.Analytics;
+using Unity.Services.Analytics;
 
 namespace VFSCloud
 {
@@ -66,6 +67,9 @@ namespace VFSCloud
             }
 
             Debug.Log($"Player ID: {AuthenticationService.Instance.PlayerId}");
+
+            List<string> consentIdentifiers = await AnalyticsService.Instance.CheckForRequiredConsents();
+            AnalyticsService.Instance.StartDataCollection();
         }
     }
 }

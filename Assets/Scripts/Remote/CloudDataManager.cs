@@ -18,8 +18,9 @@ namespace VFSCloud
     {
         [HideInInspector]
         public CloudDataManager Instance;
-
         private RemoteConfigService Remote => RemoteConfigService.Instance;
+
+        public static CloudTelemetry Telemetry => new CloudTelemetry();
 
         private void Awake()
         {
