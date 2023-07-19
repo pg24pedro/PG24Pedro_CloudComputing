@@ -10,7 +10,7 @@ namespace VFSCloud
 {
     public class TelemetryEvent
     {
-        private static TelemetryEvent _instance = null;
+        private static TelemetryEvent _instance;
 
         private static TelemetryData _data;
         public TelemetryData Data => _data;
@@ -34,6 +34,7 @@ namespace VFSCloud
             if (_data == null) 
             {
                 _data = new TelemetryData();
+                //Debug.Log(_data.ToString());
             }
         }
 

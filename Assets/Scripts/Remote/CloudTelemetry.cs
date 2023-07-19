@@ -24,8 +24,11 @@ namespace VFSCloud
             Telemetry.Data.Position = GameObject.FindGameObjectWithTag("Player").transform.position;
             Telemetry.Data.DeltaTime = Time.timeSinceLevelLoad;
 
+
+
             Telemetry.Record(eventName);
             #if UNITY_EDITOR
+                Debug.Log(Telemetry.Data);
                 Debug.Log($"CloudTelemetry recorded: {eventName}");
             #endif
 
