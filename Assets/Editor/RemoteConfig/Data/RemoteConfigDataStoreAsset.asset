@@ -12,24 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"730737e9-e6ef-47a4-82c5-0eb834aa0d51\"\r\n   
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"f84199b3-a48b-40c5-9d48-e8319ce7558d\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"Speed\",\r\n      \"type\": \"float\",\r\n     
     \"value\": 5.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"ea676f86-5a5d-4e3f-9e58-960459ced0e2\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"a0b9e34d-9023-49f1-86f9-7b55242c9733\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"Player\",\r\n      \"type\": \"json\",\r\n      \"schemaId\": null,\r\n     
-    \"value\": {\r\n        \"Speed\": 5.25,\r\n        \"TurnSpeed\": 6.33,\r\n       
-    \"JumpHeight\": 4.44,\r\n        \"Inventory\": [\r\n          {\r\n           
-    \"itemID\": 24,\r\n            \"props\": {\r\n              \"modifier\": 2,\r\n             
-    \"name\": \"Axe of Kratos\"\r\n            }\r\n          },\r\n          {\r\n           
-    \"itemID\": 32,\r\n            \"props\": {\r\n              \"modifier\": 5,\r\n             
-    \"name\": \"Swords of Chaos\"\r\n            }\r\n          }\r\n        ]\r\n     
-    }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"7e5a614e-39ea-44eb-b77c-bbcc67624e1a\"\r\n   
-    },\r\n    \"rs\": {\r\n      \"key\": \"Platforms\",\r\n      \"type\": \"json\",\r\n     
-    \"schemaId\": null,\r\n      \"value\": {\r\n        \"PlatformList\": [\r\n         
-    {\r\n            \"Speed\": 1,\r\n            \"Waypoints\": [\r\n             
-    {\r\n                \"x\": 1,\r\n                \"y\": 1,\r\n               
-    \"z\": 1\r\n              },\r\n              {\r\n                \"x\": 1,\r\n               
-    \"y\": 1,\r\n                \"z\": 1\r\n              },\r\n              {\r\n               
+    \"value\": {\r\n        \"Speed\": 7,\r\n        \"TurnSpeed\": 7,\r\n       
+    \"JumpHeight\": 3\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"a790e538-8ba9-46d9-81fe-69eca682cdbc\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"Platforms\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"PlatformList\": [\r\n          {\r\n           
+    \"Speed\": 1,\r\n            \"Waypoints\": [\r\n              {\r\n               
+    \"x\": 1,\r\n                \"y\": 1,\r\n                \"z\": 1\r\n             
+    },\r\n              {\r\n                \"x\": 1,\r\n                \"y\":
+    1,\r\n                \"z\": 1\r\n              },\r\n              {\r\n               
     \"x\": 1,\r\n                \"y\": 1,\r\n                \"z\": 1\r\n             
     }\r\n            ]\r\n          },\r\n          {\r\n            \"Speed\": 2,\r\n           
     \"Waypoints\": [\r\n              {\r\n                \"x\": 2,\r\n               
@@ -37,25 +33,27 @@ MonoBehaviour:
     \"x\": 2,\r\n                \"y\": 2,\r\n                \"z\": 2\r\n             
     },\r\n              {\r\n                \"x\": 2,\r\n                \"y\":
     2,\r\n                \"z\": 2\r\n              }\r\n            ]\r\n         
-    }\r\n        ]\r\n      }\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"730737e9-e6ef-47a4-82c5-0eb834aa0d51\"\r\n   
+    }\r\n        ]\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"5faa6988-a402-4d73-9e9f-97c25bca74af\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"PlatformsTest\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"Speed\": 1\r\n      }\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"4910d9e6-efb4-4beb-920f-13e90ccb6bea\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"CubeYPosition\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 5\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"f84199b3-a48b-40c5-9d48-e8319ce7558d\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"Speed\",\r\n      \"type\": \"float\",\r\n     
     \"value\": 5.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"ea676f86-5a5d-4e3f-9e58-960459ced0e2\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"a0b9e34d-9023-49f1-86f9-7b55242c9733\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"Player\",\r\n      \"type\": \"json\",\r\n      \"schemaId\": null,\r\n     
-    \"value\": {\r\n        \"Speed\": 5.25,\r\n        \"TurnSpeed\": 6.33,\r\n       
-    \"JumpHeight\": 4.44,\r\n        \"Inventory\": [\r\n          {\r\n           
-    \"itemID\": 24,\r\n            \"props\": {\r\n              \"modifier\": 2,\r\n             
-    \"name\": \"Axe of Kratos\"\r\n            }\r\n          },\r\n          {\r\n           
-    \"itemID\": 32,\r\n            \"props\": {\r\n              \"modifier\": 5,\r\n             
-    \"name\": \"Swords of Chaos\"\r\n            }\r\n          }\r\n        ]\r\n     
-    }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"7e5a614e-39ea-44eb-b77c-bbcc67624e1a\"\r\n   
-    },\r\n    \"rs\": {\r\n      \"key\": \"Platforms\",\r\n      \"type\": \"json\",\r\n     
-    \"schemaId\": null,\r\n      \"value\": {\r\n        \"PlatformList\": [\r\n         
-    {\r\n            \"Speed\": 1,\r\n            \"Waypoints\": [\r\n             
-    {\r\n                \"x\": 1,\r\n                \"y\": 1,\r\n               
-    \"z\": 1\r\n              },\r\n              {\r\n                \"x\": 1,\r\n               
-    \"y\": 1,\r\n                \"z\": 1\r\n              },\r\n              {\r\n               
+    \"value\": {\r\n        \"Speed\": 7,\r\n        \"TurnSpeed\": 7,\r\n       
+    \"JumpHeight\": 3\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"a790e538-8ba9-46d9-81fe-69eca682cdbc\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"Platforms\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"PlatformList\": [\r\n          {\r\n           
+    \"Speed\": 1,\r\n            \"Waypoints\": [\r\n              {\r\n               
+    \"x\": 1,\r\n                \"y\": 1,\r\n                \"z\": 1\r\n             
+    },\r\n              {\r\n                \"x\": 1,\r\n                \"y\":
+    1,\r\n                \"z\": 1\r\n              },\r\n              {\r\n               
     \"x\": 1,\r\n                \"y\": 1,\r\n                \"z\": 1\r\n             
     }\r\n            ]\r\n          },\r\n          {\r\n            \"Speed\": 2,\r\n           
     \"Waypoints\": [\r\n              {\r\n                \"x\": 2,\r\n               
@@ -63,7 +61,13 @@ MonoBehaviour:
     \"x\": 2,\r\n                \"y\": 2,\r\n                \"z\": 2\r\n             
     },\r\n              {\r\n                \"x\": 2,\r\n                \"y\":
     2,\r\n                \"z\": 2\r\n              }\r\n            ]\r\n         
-    }\r\n        ]\r\n      }\r\n    }\r\n  }\r\n]"
+    }\r\n        ]\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"5faa6988-a402-4d73-9e9f-97c25bca74af\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"PlatformsTest\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"Speed\": 1\r\n      }\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"4910d9e6-efb4-4beb-920f-13e90ccb6bea\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"CubeYPosition\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 5\r\n    }\r\n  }\r\n]"
   _environments: "[\r\n  {\r\n    \"projectId\": \"93c5a749-560e-4f01-a426-e90c96bd6f41\",\r\n   
     \"name\": \"production\",\r\n    \"id\": \"391c496f-3fae-4137-b695-804bf737355a\",\r\n   
     \"isDefault\": true,\r\n    \"createdAt\": \"2023-06-30T18:26:43Z\",\r\n    \"updatedAt\":

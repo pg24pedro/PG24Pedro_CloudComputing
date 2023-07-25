@@ -13,6 +13,11 @@ namespace VFSCloud
     {
         void LoadPlatformData(PlatformData platformData);
     }
+
+    public interface IRemoteCubeData 
+    {
+        void LoadCubeData(CubeData cubeData); 
+    }
 }
 
 

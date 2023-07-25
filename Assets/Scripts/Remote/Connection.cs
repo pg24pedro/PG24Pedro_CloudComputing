@@ -68,8 +68,8 @@ namespace VFSCloud
 
             Debug.Log($"Player ID: {AuthenticationService.Instance.PlayerId}");
 
-            List<string> consentIdentifiers = await AnalyticsService.Instance.CheckForRequiredConsents();
-            AnalyticsService.Instance.StartDataCollection();
+/*            List<string> consentIdentifiers = await AnalyticsService.Instance.CheckForRequiredConsents();
+            AnalyticsService.Instance.StartDataCollection();*/
         }
     }
 }

@@ -67,6 +67,7 @@ namespace VFSCloud
         private void ApplyremoteConfigs(RuntimeConfig appConfig) 
         {
             var playerData = appConfig.GetJson("Player");
+            Debug.Log(playerData);
             PlayerData data = JsonUtility.FromJson<PlayerData>(playerData);
 
             List<IRemotePlayerData> playerList = FindRemoteObjects<IRemotePlayerData>();
@@ -77,13 +78,27 @@ namespace VFSCloud
             }
 
             var platformData = appConfig.GetJson("Platforms");
+            
+            Debug.Log(platformData);
+            
             PlatformData platformsData = JsonUtility.FromJson<PlatformData>(platformData);
+
 
             List<IRemotePlatformData> platformList = FindRemoteObjects<IRemotePlatformData>();
             foreach (IRemotePlatformData platformItem in platformList)
             {
                 platformItem.LoadPlatformData(platformsData);
                 Debug.Log(platformItem);
+            }
+
+            var cubeYPosition = appConfig.GetInt("CubeYPosition");
+            CubeData myCubeData = new CubeData();
+            myCubeData.CubeYPosition = cubeYPosition;
+            List<IRemoteCubeData> cubes = FindRemoteObjects<IRemoteCubeData>();
+
+            foreach (IRemoteCubeData cubeItem in cubes)
+            {
+                cubeItem.LoadCubeData(myCubeData);
             }
         }
 
